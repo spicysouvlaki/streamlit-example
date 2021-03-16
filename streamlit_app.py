@@ -1,5 +1,4 @@
 from collections import namedtuple
-from xx_streamlit_xx import y
 import altair as alt
 import math
 import pandas as pd
