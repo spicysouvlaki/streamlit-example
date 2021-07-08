@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit!
+# Welcome to Streamlit! Hello
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
@@ -17,12 +17,6 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 import streamlit as st
 import os
-
-if os.getenv("STREAMLIT_HOST") != "":
-  st.write("welcome to the cloud")
-else:
-  st.write("youre on local dev")
-
 
 with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
